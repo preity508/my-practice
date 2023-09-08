@@ -1,0 +1,40 @@
+
+
+
+
+
+h2{
+    color: pink;
+    background-color: black;width: 250px;height: 200px;padding: 25px 25px; border-color: pink 5px;
+    border-radius: 55px; font-size: 40px;
+}
+.container{
+    color: aqua;
+    background-color: black;width: 250px;height: 200px;padding: 25px 25px; border-color: pink 5px;
+    border-radius: 55px; font-size: 40px;
+}
+.div{
+
+    color: blueviolet;
+    background-color: black;width: 250px;height: 200px;padding: 25px 25px; border-color: pink 5px;
+    border-radius: 55px; font-size: 40px;
+}
+
+.patil{
+    color: chartreuse;
+    background-color: black;width: 250px;height: 200px;padding: 25px 25px; border-color: pink 5px;
+    border-radius: 55px; font-size: 40px;
+}
+.bharati{
+    color: crimson;background-color: rgb(12, 108, 108); font-size: 30px;width: 150px;height: 100px;
+}
+.vaibhav{
+    color: greenyellow; background-color: aqua; font-size: 35px;width: 100px;height: 100px;
+}
+.window{
+    color: brown; background-color: rgb(218, 140, 24);
+}
+.para{
+    color: green;
+    font-size: 35px;
+}

@@ -1,0 +1,73 @@
+
+
+
+#div1{
+    color: rgb(29, 213, 12);
+
+}
+#div2{
+    color: maroon;
+    background-color: rgb(220, 132, 17);
+    font-size: 20px;
+    font-family: fantasy;
+}
+#div3{
+    color: pink;
+    background-color: orange;
+    border: 2px solid black;
+
+}
+div p{
+    background-color: aquamarine;
+}
+span > h1{
+    background-color: crimson;
+}
+h4 + h2{
+background-color: firebrick;
+}
+p ~ h3{ 
+    background-color: darkcyan;
+}
+div p{
+    background-color: lightseagreen;
+}
+div > h4{
+    background-color: chartreuse;
+}
+
+h5 + h2{
+    background-color: darkturquoise;
+}
+div h1{
+    background-color: darkorchid;
+} 
+ div > h5{
+    background-color: blue;
+}
+h2 + h1{
+    background-color: pink;
+}
+h4 ~ h5{
+    background-color: red;
+}
+    
+div h1:hover{
+    background-color: aqua;
+    
+}
+div h2:hover{
+    color: darkmagenta;
+}
+ a:active{
+    color: darkviolet;
+    font-size: 30px;
+}
+a:hover{
+    color: hotpink;
+    font-size: 30px;
+}
+p:first-child{
+    color:green;
+    font-size: 30px;
+}

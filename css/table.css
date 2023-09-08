@@ -1,0 +1,17 @@
+
+
+.tab-prop1{
+    border: 2px solid forestgreen;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}
+/* grouping of element selector */
+table,tr,th,td{
+    border: 2px solid rgb(145, 20, 203);
+    border-collapse: collapse;
+    padding: 5px 5px;
+}
+.tab-prop3{
+    border: 2px solid orangered;
+    padding: 6px 6px;
+}

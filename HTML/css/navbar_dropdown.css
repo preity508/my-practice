@@ -1,0 +1,240 @@
+
+
+
+.navbar {
+    background-color:yellowgreen;
+    overflow: hidden;
+}
+.parent-container{
+    background-image: url("flower.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+    
+}
+
+.ancnhorcss {
+
+    text-decoration: none;
+    font-size: 54px;
+    padding: 6px 9px;
+    float: left;
+    color: red;
+}
+.dropdown{
+    float: left;
+}
+.dropdown-btn {
+    font-size: 25px;
+    color: red;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    position: relative;
+    top: 5px;
+    padding: 15px 28px;
+
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: rgb(8, 155, 166);
+    min-width: 120px;
+    display: none;
+    left: 460px;
+    top: 95px;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content{ 
+    display: block;
+
+} 
+.dropdown-content a:hover{
+    background-color: aqua;
+}
+a.ancnhorcss:hover{
+background-color: cadetblue;
+}
+.dropdown-btn:hover{
+    background-color: cadetblue;
+}
+.form-container{
+    color: #263238;
+    font-size: 38px;
+    border: 2px solid black;
+    position: relative;
+    width: 384px;
+    padding: 11px 10px;
+    background-color: aliceblue;
+    font-family: ui-monospace;
+    height:137px;
+}
+
+.navbar2{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+.parent-container2
+{
+  background-image: url(trees.jpg); 
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+.ancnhorcss2{
+    text-decoration: none;
+    font-size: 54px;
+    padding: 6px 9px;
+    float: left;
+    color: maroon;
+
+}
+.dropdown2{
+float: left;
+}
+.dropdown-btn2{
+    font-size: 40px;
+    color: maroon;
+    background-color: lightblue;
+    position: relative;
+    top: -1px;
+    padding: 11px 52px;
+    border-radius: 72px;
+    border: 2px dotted black;
+}
+.dropdown-content2{
+    position: absolute;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: lightsalmon;
+    color: maroon;
+    display: none;
+    left: 460px;
+    top: 693px;
+    
+}
+.dropdown-content2 a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    color: greenyellow;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+
+}
+.dropdown-content2 a:hover{
+    background-color: darkgoldenrod;
+}
+a.ancnhorcss2:hover{
+    color: coral;
+}
+.form-container2{
+    position: relative;
+    font-size: 25px;
+    color: maroon;
+    background-color: darkkhaki;
+    border: 3px dotted black;
+    width:258px;
+    height: 279px;
+    padding:40px 40px;
+    font-family: cursive;
+    background-image: url(tom\ and\ jerry.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sbt-btn{
+    background-color:burlywood ;
+    position: relative;
+    left: 6px;
+    top: 20px;
+    border-radius: 44px;
+    font-size: 24px;
+    padding: 3px 15px;
+    border: 2px dotted black;
+}
+.form-css{
+    text-align: center;
+    margin: auto;
+}
+.tom-jerry{
+    position: relative;
+    bottom: 360px;
+    left: 356px;
+    height: 250px;
+    width: 250px;
+}
+    
+    
+    
+
+.tom-jerry:hover{
+    opacity: 0.5;
+
+}
+.navbar-3{
+    background-color: chartreuse;
+    overflow: hidden;
+}
+.ancnhorcss-3{
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    padding: 45px 45px;
+    float: left;
+    color: violet;
+}
+.dropdown-3{
+   float: left; 
+}
+.dropdown-btn-3{
+    position: relative;
+    font-size: 40px;
+    border-radius: 10px;
+    top: 1px;
+    color: cornflowerblue;
+    background-color: black;
+}
+.dropdown-content-3:hover{
+  position: absolute; 
+  background-color: burlywood;
+  min-width: 100px;
+  display: none;
+}
+.dropdown-content-3 a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px
+    
+}
+..dropdown-3:hover.dropdown-content-3{
+    display: block;
+    
+}    
+.dropdown-content-3:hover a{
+    background-color: yellowgreen;
+    color: crimson;
+}
+.navbar-3:hover a{
+    background-color: darkorange;
+    color: fuchsia;
+}
+.dropdown-btn-3:hover{
+     background-color: greenyellow;
+     color: green;
+     
+}

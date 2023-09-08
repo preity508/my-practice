@@ -1,0 +1,24 @@
+
+
+p:first-child{
+    color: darkgreen;
+}
+h1::first-letter{
+    color: coral;
+    font-size: 50px;
+}
+h5::first-line{
+    color: darkblue;
+    font-size: 30px;
+}
+h2:hover{
+    color: darkolivegreen;
+    font: 20px;
+}
+div:active{
+    color: indigo;
+}
+span::selection{
+    color: seagreen;
+    background-color: greenyellow;
+}

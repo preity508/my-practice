@@ -1,0 +1,60 @@
+
+
+.disp{
+    display: inline;
+    background-color: aqua;
+    color: brown;
+    font-size: 20px;
+}
+.disp1{
+    display: none;
+}
+.disp2{
+    display: block;
+    border: 8px dotted orangered;
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    background-color: chocolate;
+    padding: 5px 5px;
+}
+.disp3{
+    display: inline-block;
+    border: 5px dotted orangered;
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    background-color: chocolate;
+    padding: 5px 5px;
+}
+.newspaper{
+    column-count: 3;
+}
+.disp9{
+    display: inline;
+}
+.disp8{
+    display: block;
+    border: 10px double green;
+    font-size: 50px;
+    font-family: fantasy;
+    padding: 5px 5px;
+    height: 80px;
+    width: 900px;
+}
+.disp7{
+    display: inline-block;
+    display: inline-block;
+    height: 49px;
+    width: 900px;
+    border: 5px dotted indigo;
+    padding: 13px 37px;
+    font-size: 28px;
+    font-family: cursive;
+    margin: 32px;
+
+}
+.newspaper1{
+    column-count: 3;
+    border: 3px dotted red;
+}

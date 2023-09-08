@@ -1,0 +1,57 @@
+
+
+
+
+.navbar{
+    color: rgb(185, 25, 25); background-color: aqua;font-size: 30px;width: 230px;height: 33px;
+    text-decoration: none;
+}
+div.navbar a{
+    text-decoration: none;
+}
+div.maharaj div{
+    color: black; background-color: rgb(183, 183, 31); font-size: 25px;width: 100px;height: 50px;
+    text-decoration-line: underline;border-radius: 100px;
+    padding: 50px;
+}
+div.bharati h1{
+    color: red; background-color: rgb(36, 174, 174);
+    font-size: 25px;width: 100px;height: 50px;
+    text-decoration-line: underline;border-radius: 100px;
+    padding: 50px;
+}
+
+div.patil h1{
+    color: rgb(185, 25, 25); background-color: aqua;font-size: 30px;width: 230px;height: 33px;
+    text-decoration: none;
+}
+
+div.window div{
+    color: yellow; background-color: yellowgreen; font-size: 35px; width: 150px; height: 115px;
+    padding: 75px; border-radius: 45px; text-decoration: underline ;text-decoration-color: rgb(205, 29, 29);
+}
+    
+
+
+div.cartain div{
+    color: chocolate;background-color:skyblue ; font-size: 30px;
+    width: 114px;
+    height: 120px;
+    padding: 63px;
+    border-radius: 48px;
+    text-decoration: underline;
+    text-decoration-color: #e17a15;
+}
+div.bottel div{
+    color: #e17a15; font-size: 35px; background-color: chartreuse;
+}
+div.flipkart a{
+    color: black; font-size:20px ; 
+
+}
+    
+.name{
+    color: palevioletred; font-size: 30px;font-family: Arial;
+    cursor: auto;
+
+}
