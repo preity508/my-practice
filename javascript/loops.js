@@ -42,10 +42,13 @@ for (let num of numbers) {
     
 }
     let h = 10;
-    
+    //do while
     do {
         h++
         console.log(h);
     } while (h  < 15);
 
-
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
