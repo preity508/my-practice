@@ -90,7 +90,5 @@ console.log( d1 > d2 && d1 < d2);
 console.log( d1 > d2 || d2 < d1);
 
 let s1 = true;
-console.log('!', !s1);
-
-
+console.log('!', !s)
 
