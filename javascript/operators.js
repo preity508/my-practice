@@ -55,6 +55,9 @@ let b1 = 80;
 b1 > 90 ? console.log('b1 is greater') : console.log('b1 is smaller');
 let c1 = 50;
 c1 > 40 ? console.log('c1 is greater') : console.log('c1 is smaller');
+let z1 = 50;
+z1 > 40 ? console.log('z1 is greater') : console.log('z1 is smaller');
+
 
 let o1 = 600;
 let p1 = 770;
@@ -91,4 +94,5 @@ console.log( d1 > d2 || d2 < d1);
 
 let s1 = true;
 console.log('!', !s)
+
 
