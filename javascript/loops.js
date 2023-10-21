@@ -20,8 +20,13 @@
 
 let cars = ['mercedes','BMW','honda','toyota','hyundai','ford','audi','tata mtors',
 'nissan','renault','jeep','chevrolet','cadillac',
-'ferrari','mini','lamborghini','KIA',
+'ferrari','mini','lamborghini','KIA','fortuner','nissan'
 ]
+let value= cars [17];
+console.log('value',value);
+let data = cars[15];
+console.log( 'data', data);
+console.log(cars.length);
 
 console.log(cars.length);
 console.log(cars[0]);
@@ -98,3 +103,31 @@ for (
 
     
    } while (f1 < 25);
+
+
+
+   for (let index = 1; index < cars.length; index++) {
+    console.log(index);
+    
+   }
+
+   
+let std = {
+    name: 'Bharati Patil',
+    age: 23,
+    mobile: 9345678434,
+    dist: ' ch.Sambhaji nagar',
+    state: 'Maharashtra',
+    nation: 'India',
+    sex: 'Female',
+    category: 'open',
+
+
+}
+for(let b in std){
+    console.log(std[b]);
+
+}
+
+
+   
