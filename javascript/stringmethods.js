@@ -76,6 +76,8 @@ let o =  'console.log pune(p.slice pune(5, 10)); pune'
 let q = o.replace('pune','mumbai')
 console.log(q);
 let o1 = o.replaceAll('pune','mumbai')
+let o2 = o.replaceAll('consol log')
+console.log(o);
 
 let m1 = 'In formal patana language theory and  patana computer science, a  patana substring is a  patana contiguous  patana sequence of characters within a string.'
 let m2 = m1.replace('patana','Delhi')
@@ -277,3 +279,84 @@ console.log(ca2.includes("plain"));
 
 let msg = '200,300,400,500';
 console.log(msg.startsWith('300,4'));
+
+let r1 = 'hello world , welcome to the univers';
+console.log(r1.length);
+console.log(r1.slice(3,5)); ``
+console.log(r1.slice(6,12))
+console.log(r1.substring(-5,9));
+
+let r3 = 'hello my name is bharati patil i am from bangkok'
+console.log(r3.substring(-6,10));
+console.log(r3.substr(5,10));
+
+
+//replace,replaceAll,tolowercase,touppercase,charat,trim,trimend,trimstart,
+//name
+
+let p1 = 'If an error pune occurs during pune the request pune or response pune processing, it will be caught by the pune .catch() method, pune and the error will be logged to the console.'
+console.log(p1.replace(/pune/ig,'Aurangabad'));
+console.log(p1.replaceAll('pune','Aurangabad'));
+
+console.log(p1.toUpperCase(p1));
+let p2 = 'HI MY NAME IS BHARATI PATIL';
+console.log(p2.toLowerCase());
+let p4 = 'bharati';
+console.log(p4.charAt(0));
+console.log(p4.charAt(1));
+console.log(p4.charAt(2));
+console.log(p4.charAt(3));
+console.log(p4.charAt(4));
+console.log(p4.charAt(5));
+console.log(p4.charAt(6));
+
+let p5 = '  bharati '
+console.log('p5.trim-->',  p5.trim());
+console.log('p5.trim-->', p5.trimStart());
+console.log('p5.trim-->',  p5.trimEnd());
+
+let kl = 'bharati ganesh'
+let k22 = 'patil'
+let k13 = (' ', k22 , '' , 'ganesh')
+console.log(k13);
+
+//let FN = 'bharati';
+//let LN = 'patil';
+//let F_name = FN + ' ' + LN;
+//console.log(F_name);
+
+//let Full_N = FN.concat(' ', LN ,' ', 'ganesh')
+//console.log(Full_N);
+
+//let BN = 'bharati';
+//let BL = 'patil';
+//let B_F = ( BN + ' '+ BL)
+//console.log(B_F);
+
+//let F_N = BN.concat(' ', BL , ' ', 'ganesh' )
+//console.log(F_N);
+
+//let k2 = ' sharvil';
+//let s2 = 'Dolas';
+//let S_N = k2 + ' ' + s2
+//console.log(S_N);
+
+
+let m5 = 'my name is bharati paTIL'
+console.log(m5.length);
+console.log(m5.slice(4,5));
+console.log(m5.slice(2,7));
+console.log(m5.substring(6,9));
+console.log(m5.substr(5,8));
+console.log(m5.substr(3,5));
+console.log(m5.replace('my','our'));
+
+let k4 = 'avaScript bharati arrays  bharati are flexible, bharati allowing you bharati to store and '
+console.log(k4.replace(/bharati/ig,'preity'));
+console.log(k4.replaceAll('bharati','preity'));
+
+let BN1 = 'bharati';
+let BN3 = 'patil';
+
+console.log(BN1 + ' ' + BN3);
+console.log(BN1.concat( ' ', BN3 , ' ' ,'ganesh'));
