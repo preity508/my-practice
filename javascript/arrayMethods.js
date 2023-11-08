@@ -89,3 +89,53 @@ fruit0.reverse();
 
 
 let d2 = [ 20 , 30 ,60 , 80 ,10 ,40, 100];
+// tostring //pop//push//shift//unshift//concat//join//slice //splice//sort//reverse 
+
+//tostring
+let S = [ 10,20,30,40,50,60];
+let S1 = S.toString();
+console.log(S1);
+  
+let S2 = [ 'orange ', ' banana ', 'apple', 'pineapple']
+let S3 = S2.pop();
+console.log(S2);
+console.log(S3);   
+
+let s1 = ['orange ', ' banana ', 'apple', 'pineapple'];
+let s2 = s1.push('kiwi','tomato');
+console.log(s1);
+console.log(s2);
+
+let s3 = ['orange ', ' banana ', 'apple', 'pineapple'];
+let s4 = s3.shift();
+console.log(s3);
+console.log(s4);
+
+let s5 = ['orange ', ' banana ', 'apple', 'pineapple']
+let s6 = s5.unshift('mango','tomato');
+console.log(s5);
+console.log(s6);
+
+let p = ['orange ', ' banana ', 'apple', 'pineapple']
+let p1 = [ 'kiwi','mango']
+console.log(p.concat(p1)); 
+ 
+let u = [ 8 , 8 , 2000]
+console.log(u.join(' - '));
+console.log(u.join( ' / ')); 
+
+let u1 = [ 10,20,30,40,50,60,70];
+console.log(u1.slice(2,6));
+
+let u2 = [ 'orange ', ' banana ', 'apple', 'pineapple'];
+let u3 = u2.splice( 1 , 0 ,'kiwi')
+console.log(u2);
+console.log(u3);
+
+let u4 = ['orange ',  'banana', 'apple', 'pineapple'];
+let u5 = u4.sort();
+console.log(u4);
+console.log(u5);
+let u6 =u4.reverse()
+console.log(u6);
+
