@@ -1,133 +1,127 @@
-let car = ['i20', 'audi', 'mercedez', 'BMW', 'swift']
-let newcars = [];
-for (let i = 0; i < car.length; i++) {
-    newcars.push(car[i])
+//foreach //
+
+let cars = ['i10', ' i20', 'swift', 'jaguar', 'audi', 'mersedeze',]
+let cars1 = [];
+for (let i = 0; i < cars.length; i++) {
+    cars1.push(cars[i])
 }
-console.log('newcars', newcars);
+console.log('cars1', cars1);
 
-
-let newcars1 = [];
-car.forEach(item => {
-    newcars1.push(item)
+let cars2 = []
+cars.forEach(element => {
+    cars2.push(element)
 })
-console.log('newcars1', newcars1);
+console.log('cars2', cars2);
 
-let newcars2 = [...car]
-console.log('newcars2', newcars2);
+//spread operator//
 
-let car1 = ['apple', 'banana', 'mango', 'orange', 'pineapple'];
-let newcar1 = [];
-for (let index = 0; index < car1.length; index++) {
-    newcar1.push(car1[index]);
+let cars3 = [...cars];
+console.log('cars3', cars3);
 
+let fruit = ['aaple', 'banana', 'kiwi', 'orange', 'mango']
+let fruit1 = [];
+for (let index = 0; index < fruit.length; index++) {
+    fruit1.push(fruit[index])
 }
-console.log('newcar1', newcar1);
+console.log('fruit1 ', fruit1);
 
-let a = ['apple', 'banana', 'mango', 'i20', 'audi', 'mercedez'];
-let a1 = [];
-for (let i = 0; i < a.length; i++) {
-    a1.push(a[i])
+let fruit2 = []
+fruit.forEach(ele => {
+    fruit2.push(ele)
+})
+console.log('fruit2', fruit2);
+
+let fruit3 = [...fruit]
+console.log('fruit3', fruit3);
+
+let employee = [
+    { name: 'bharati patil', age: 30 },
+    { name: 'swapnil patil', age: 30 },
+    { name: 'shweta patil', age: 24 },
+    { name: 'ashwini patil', age: 26 }]
+
+     let employeenames = employee.map(employeeObject =>{
+       return employeeObject.name;
+    })
+    console.log('employeenames',employeenames);
+
+let empname = []
+employee.map( employeedata =>{
+    empname.push(employeedata.name)
+})
+console.log('empname', empname);
+
+function test(){
+    let employee = [
+        { name: 'bharati patil', age: 30 },
+        { name: 'swapnil patil', age: 30 },
+        { name: 'shweta patil', age: 24 },
+        { name: 'ashwini patil', age: 26 }]
+    
+         let employeenames = employee.map(employeeObject =>{
+           return employeeObject.name;
+        })
+        console.log('employeenames',employeenames);
+    
+    let empname = []
+    employee.map( employeedata =>{
+        empname.push(employeedata.name)
+    })
+    console.log('empname', empname);
+    
+}
+
+let a = [ 'apple', 'kiwi','mango','banana','orange']
+let a1 = []
+for( let i = 0 ; i < a.length ; i++){
+    a1.push ( a [ i])
 }
 console.log('a1', a1);
 
-let B = ['apple', 'banana', 'mango', 'orange', 'pineapple'];
-let B1 = [];
-B.forEach(Element => {
-    B1.push(Element)
+let a2 = [ ]
+a.forEach( element =>{
+a2.push( element)
 })
-console.log(B1);
-let b = ['apple', 'banana', 'mango', 'orange', 'pineapple'];
-let b1 = [];
-B.forEach(item => {
-    b1.push(item)
-})
-console.log('b1', b1);
+    console.log('a2', a2);
 
-let c = ['apple', 'banana', 'mango', 'orange', 'pineapple']
-let c1 = [...c];
-console.log('c1', c1);
+    let a3 = [...a ]
+    console.log('a3', a3);
 
-let d = ['audi', 'BMD', 'swift', 'seltos', 'creata', 'huydai']
-let d1 = [];
-for (let i = 0; i < d.length; i++) {
-    d1.push(d[i])
+    let b = [ 'honda','hyndai','creata','seltos','audi',]
+    let b1 = [ ]
+    for ( let i = 0 ; i < b.length ; i++){
+        b1.push ( b[i])
+    }
+    console.log('b1', b1);
+
+    let c = []
+    b.forEach( ele =>{
+        c.push( ele)
+    })
+    console.log('c', c);
+
+    let b2 = [ ...b]
+    console.log('b2', b2);
+
+
+function cascading(){
+    console.log( ' cascading calling...');
+    test()
 }
-console.log('d1', d1);
-
-let f = []
-B.forEach(index => {
-    f.push(index)
-});
-console.log(f);
-
-let G = [];
-d.forEach(i => {
-    G.push(i)
-})
-console.log('G', G);
-
-let Z = [...d];
-console.log('Z', Z);
-
-let N = ['apple', 'banana', 'orange', 'kiwi', 'pineapple', 'mango', 'tomato']
-let N1 = [];
-for (let i = 0; i < N.length; i++) {
-    N1.push(N[i])
+function addition (){
+    let result = 30 + 60 ;
+    console.log( result);
 }
-console.log('N1', N1);
-let N2 = []
-N.forEach(ele => {
-    N2.push(ele)
-})
-console.log('N2', N2);
-let N3 = [...N]
-console.log('N3', N3);
 
-let J = ['audi', 'seltos', 'hyundai', 'swift', 'i20', 'i10']
-let J1 = []
-J.forEach(B => {
-    J1.push(B)
-})
-console.log(J1);
-let k = []
-J.forEach(M => {
-    k.push(M)
-})
-console.log(k);
-L = [...J]
-console.log('L', L);
+function addition1 ( ){
 
-let T = ['apple', 'banana', 'orange', 'kiwi', 'pineapple', 'mango', 'tomato']
-let T1 = []
-for (let i = 0; i < T.length; i++) {
-    T1.push(T[i])
 }
-console.log(T1);
-let T2 = [];
-T.forEach(element => {
-    T2.push(element)
+
+let number = [ 10,20,30,40,50,60]
+let number1 = []
+number.forEach ( index => {
+    if(  index != 50 ){
+        number1.push(index)
+    }
 })
-console.log('T2', T2);
-
-let T3 = [...T]
-T3.splice(1, 1, ' chiku')
-console.log('T3', T3);
-
-let T4 = [];
-T.forEach(index => {
-    T4.push(index)
-    T4.splice(1, 1, ' bharati')
-})
-console.log('T4', T4)
-
-let employee = [
-{ name: 'bharati patil', age: 30 },
-{ name: 'poonam patil ', age: 30 },
-{ name: 'prerana patil', age: 30 },
-{ name: 'aditya patil', age: 30 },
-{ name: 'shweta patil', age: 30 }]
-
-let employeeNames = employee.map(employeedata =>{
-    return employeedata.name;
-})
-console.log('employeeNames', employeeNames);
+console.log('number1', number1);
