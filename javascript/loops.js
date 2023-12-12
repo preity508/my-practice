@@ -305,3 +305,52 @@ console.log(A1[M3]);
  for ( let x3 in student4){
     console.log( student4[x3]);
  }
+
+ let car = ['i20 ', ' jaguar','honda ','city','bmd','merecedez','thar']
+ console.log(car.length);
+ console.log(car[0]);
+ console.log(car[1]);
+ console.log(car[2]);
+
+ console.log(car[4]);
+ console.log(car[5]);
+ console.log(car[6]);
+ 
+
+ for(let x = 0 ; x < car.length ; x++){
+    console.log(car[x]);
+ }
+ let car1 = ['audi','mercedez','thar','jaguar','HONDAcity']
+ for( let i in car1){
+    console.log(car1[i]);
+ }
+
+ let colour = ['pink','orange','yellow','red','purple','brown']
+
+ for(let index of colour){
+    console.log(index);
+ }
+ for( let i = 0 ; i < colour.length; i++){
+    console.log(colour[i]);
+ }
+
+ //nested if : 
+
+ let a = 101
+ let b =  100
+
+ if( a < 100){
+    if(a < b){
+        if(b < 90)
+        console.log(b);
+    }
+ }
+
+ let stdname = {
+    name : 'bharati patil',
+    age : 20 ,
+    mo : 9010123904
+ }
+ for( let x in stdname ){
+    console.log(stdname[x]);
+ }

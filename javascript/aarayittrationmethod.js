@@ -125,3 +125,4 @@ number.forEach ( index => {
     }
 })
 console.log('number1', number1);
+

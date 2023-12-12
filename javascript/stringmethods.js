@@ -418,3 +418,10 @@ console.log(y3.startsWith('300'));
 let y4 = 'john deo';
 console.log(y4.startsWith('j'));
 console.log(y4.endsWith( 'eo'));
+
+let A10 = ' my name is bharati '
+let A11 = A10.length;
+console.log(A11);
+
+ let A12 = A10.slice(4,8)
+ console.log('A12',A12);
