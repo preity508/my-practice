@@ -110,4 +110,4 @@ console.log('stringifyed_obj',stringyfyed_obj);
 
 let ParseData = JSON.parse(stringyfyed_obj);
 console.log('ParseData',ParseData);
-console.log(ParseData.Price);
+console.log(ParseData.Price);  
