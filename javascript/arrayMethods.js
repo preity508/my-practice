@@ -139,3 +139,18 @@ console.log(u5);
 let u6 =u4.reverse()
 console.log(u6);
 
+//length Property
+
+let A = [10,20,30,40,50,60,70]
+console.log(A.length);  
+
+//Tostring ()
+let A1 = A.toString()
+console.log();
+
+//pop()method 
+
+let A2 = ['orange ', ' banana ', 'apple', 'pineapple']
+let A3 = A2.pop()
+console.log('A3',  A2);
+console.log(A3);

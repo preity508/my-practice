@@ -417,11 +417,108 @@ console.log(y3.startsWith('300'));
 
 let y4 = 'john deo';
 console.log(y4.startsWith('j'));
-console.log(y4.endsWith( 'eo'));
+console.log(y4.endsWith('eo'));
 
 let A10 = ' my name is bharati '
+
+//length//
 let A11 = A10.length;
 console.log(A11);
 
- let A12 = A10.slice(4,8)
- console.log('A12',A12);
+//slice//
+let A12 = A10.slice(4, 8)
+console.log('A12', A12);
+
+
+//substring//
+let A13 = A10.substring(9)
+console.log(A13);
+
+//substr//
+let A14 = A10.substr(4, 16)
+console.log(A14);
+
+//replace or replaceall//
+let A15 = ' my name is mumbai bharati my mumbai name is mumbai bharati '
+let A16 = A15.replace(/mumbai/ig, 'pune')
+console.log('A16', A16);
+console.log(A15.replaceAll('mumbai', 'pune'));
+
+//concat
+let A17 = ' bharati'
+let A18 = 'patil'
+let A19 = A17 + ' ' + A18
+console.log('A19', A19);
+
+let A20 = A17.concat( ' ',A18 , ' GANESH')
+console.log(A20);
+ 
+
+// ToLowercase / ToUppercase
+let B1 = 'MUMBAI'
+let B2 = B1.toLowerCase()
+console.log(B2);
+  
+
+//trim / /
+let B4 = '    bharati    '
+let B5 = B4.trim()
+console.log('b5',  B5);
+
+//trimStart Method//
+console.log(B4.trimStart());
+
+//trimend Method
+console.log(B4.trimEnd());
+
+//charAt
+let B6 = 'bharati patil'
+let B7 = B6.charAt(1)
+console.log(B7);
+
+
+
+//String method
+let Z1 = ' dog'
+console.log(Z1.indexOf('o'));
+console.log(Z1.lastIndexOf('d'));
+
+
+//split ()
+
+let dob1 = '04/04/2000'
+let dob2 = dob1.split('-')
+console.log(dob2);
+console.log(dob1[4]);
+
+let U2 = 'bharati G patil'
+let U1 = U2.split(" ")
+console.log("U1", U1);
+console.log(U2[2]);
+
+//match
+let V1 = ' please please please please please'
+let V2 = V1.match('ase')
+console.log('v2', V2);
+
+//search Method
+let T = 'bharati bharati bharati'
+let T1 = T.search('ati')
+console.log('T1',T1);
+
+//includes Method
+let D = " hello world Welcome to the universe"
+let D1 = D.includes('Welcome')
+console.log(D1);
+
+//starts with
+
+let P = '200000 Bharati'
+let P1 = P.startsWith('20')
+console.log('P1',P1);
+let P3 = P.endsWith('i')
+console.log('P3',P3);
+
+
+let P4 = 'jo deo hn deo hnmc deo'
+console.log(Array.from(P4.matchAll('deo')));
