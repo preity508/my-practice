@@ -148,9 +148,62 @@ console.log(A.length);
 let A1 = A.toString()
 console.log();
 
-//pop()method 
+//pop()method: 1st element pop out (deleted) 
+
 
 let A2 = ['orange ', ' banana ', 'apple', 'pineapple']
 let A3 = A2.pop()
 console.log('A3',  A2);
 console.log(A3);
+
+//push()method : add in end of element
+let A5 = ['orange ', ' banana ', 'apple', 'pineapple']
+console.log(A5.push('kiwi'));
+console.log('A5',  A5);
+
+
+//shift () //returns remove item in aaray : deleted 1st item in aaray
+let A6 = ['orange ', ' banana ', 'apple', 'pineapple']
+console.log(A6.shift());
+console.log('A6',A6);
+
+//unshift() : returns in original item in aaray
+
+let A7 = ['orange ', ' banana ', 'apple', 'pineapple']
+console.log(A7.unshift('bharati','patil'));
+console.log(A7);
+
+//to delete item => pop,shift & delete-operator : deleted item creates undefined
+//whole in original aaray so length will remains same with delete operator
+
+//join() Method //
+let A8 = ['orange ', ' banana ', 'apple', 'pineapple']
+console.log(A8.join('#'));
+console.log('A8',A8);
+
+let A9 = [ 8,8,2000]
+console.log(A9.join('-'));
+console.log('A9',A9);
+
+
+//slice()Method
+let B1 = [10,20,30,40,50,60,70]
+console.log(B1.slice(2,5));
+
+//splice()Method : add and delete item
+
+let B2 = ['orange','banana','apple','pineapple']
+let B3 = B2.splice(1,1,'kwi')
+console.log('B3',B3);
+
+//sort() : assending order
+let B4 = ['orange','banana','apple','pineapple']
+console.log(B4.sort());
+
+//reverse() : Desending order
+let B5 = ['orange','banana','apple','pineapple']
+console.log(B5.reverse());
+
+let B6 = ['orange','banana','apple','pineapple']
+let B7 = B6.sort().reverse()
+console.log('B6',B6);

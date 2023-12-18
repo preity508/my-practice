@@ -126,3 +126,59 @@ number.forEach ( index => {
 })
 console.log('number1', number1);
 
+//for loop 
+let z = ['i10', ' i20', 'swift', 'jaguar', 'audi', 'mersedeze',]
+let z1 = []
+
+for(let i = 0 ; i < z.length; i++ ){
+z1.push(z[i])
+}
+console.log('z1',z1);
+
+//forEach : 
+let z3 = []
+z.forEach(item => {
+    z3.push(item)
+    })
+console.log('z3',z3);
+
+let U1 = ['i10', ' i20', 'swift', 'jaguar', 'audi', 'mersedeze',]
+let U2 = []
+for( let x = 0 ; x < U1.length ; x++){
+    U2.push(U1[x])}
+    console.log(U2);
+
+    //let employee1 = [
+     //   { name: 'bharati patil', age: 30 },
+       // { name: 'swapnil patil', age: 30 },
+       // { name: 'shweta patil', age: 24 },
+        //{ name: 'ashwini patil', age: 26 }]
+
+  //let employeenames1 =  employee1.map(employeeData=>{
+    //return employeeData.name
+  //}) 
+  //console.log('employeenames1',employeenames1);    
+ 
+
+  //let employeeData = employee1.map(employeeage=>{
+    //return employeeage.age
+  //})
+  //console.log('employeeData',employeeData);
+
+  function Test(){
+    let employee = [
+        { name: 'bharati patil', age: 30 },
+        { name: 'swapnil patil', age: 30 },
+        { name: 'shweta patil', age: 24 },
+        { name: 'ashwini patil', age: 26 }]
+
+
+  }
+  let employee3 = employee.map(elementname =>{
+    return elementname.name
+  }
+)   
+console.log('employee3',employee3);
+ 
+
+  

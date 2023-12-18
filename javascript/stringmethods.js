@@ -484,7 +484,7 @@ console.log(Z1.indexOf('o'));
 console.log(Z1.lastIndexOf('d'));
 
 
-//split ()
+//split (" _ ")
 
 let dob1 = '04/04/2000'
 let dob2 = dob1.split('-')
@@ -501,17 +501,17 @@ let V1 = ' please please please please please'
 let V2 = V1.match('ase')
 console.log('v2', V2);
 
-//search Method
+//search Method()/  returning in no 
 let T = 'bharati bharati bharati'
 let T1 = T.search('ati')
 console.log('T1',T1);
 
-//includes Method
+//includes Method / true or false
 let D = " hello world Welcome to the universe"
 let D1 = D.includes('Welcome')
 console.log(D1);
 
-//starts with
+//starts with // true or false
 
 let P = '200000 Bharati'
 let P1 = P.startsWith('20')
@@ -522,3 +522,4 @@ console.log('P3',P3);
 
 let P4 = 'jo deo hn deo hnmc deo'
 console.log(Array.from(P4.matchAll('deo')));
+
