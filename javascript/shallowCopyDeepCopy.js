@@ -112,3 +112,81 @@ let ParseData = JSON.parse(stringyfyed_obj);
 console.log('ParseData',ParseData);
 console.log(ParseData.Price);
 
+//shallow copy : 
+
+let car10 = [ 'seltos','creata','mercedez','audi','bollero','bulleno',]
+let car11 = car10
+console.log('car',car10);
+console.log('car',car11);
+car11[1] = 'pink'
+console.log('car11',car11);
+console.log('car10c',car10);
+
+let A = [ 10,20,30,40,50]
+A[1] = 200
+console.log('A',  A);
+
+
+
+let colour = ['pink','orange','white','black','grey','purple','blue']
+let colour1 = [...colour]
+console.log('colour',colour);
+console.log('colour1',colour1);
+colour1[2] = 'red'
+console.log('colour',colour);
+console.log('colour1',colour1);
+
+//shallow copy of object
+let car12 = {
+    carname : 'audi',
+    color : 'white',
+    price : 2000000,
+    tpermite : true
+}
+let car13 = car12;
+console.log('car12',car12);
+console.log('car13',car13);
+
+car12.price = 3000000
+console.log('car12',car12);
+console.log('car13',car13);
+
+//--------------------------------------------------------------------//
+//--------------------------------------------------------------------//
+
+
+//deep copy of object
+
+ let car14 = {
+    carname : 'audi',
+    color : 'white',
+    price : 2000000,
+    tpermite : true
+ }
+
+let car15 = {...car14}
+console.log('car14',car14);
+console.log('car15',car15);
+
+car15.color = 'black'
+console.log('car14',car14);
+console.log('car15',car15);
+
+
+
+// stingyfy method
+let car16 = {
+    carname : 'audi',
+    color : 'white',
+    price : 2000000,
+    tpermite : true
+ }
+
+ let stringyfy_data = JSON.stringify(car16)
+ 
+ console.log('stringyfy_data',stringyfy_data);
+
+ let stringyfy_data1 = JSON.parse(stringyfy_data)
+ console.log('stringyfy_data',stringyfy_data1);
+ console.log(stringyfy_data1.price);
+

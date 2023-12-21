@@ -179,6 +179,54 @@ for( let x = 0 ; x < U1.length ; x++){
   }
 )   
 console.log('employee3',employee3);
- 
+
+    
+function cascading(){    // two type of function parametrised and parameterless
+    console.log('cascading calling........');
+    test()
+}
+
+function addition2(){
+let result = 30 + 50;
+console.log('result',result);
+
+}
+
+let A2 = 'bharati'
+ function addition3(){
+return A2 ; 
+console.log('bharati...');
+     }
+
+
+
+  function subtractrion1(a,b){
+return a-b
+  }
+
+  subtractrion1(150,90)
+
+
+
+  let number2 = [10,20,30,40,50,60,70,80 ]
+  let number3 = []
+  number2.forEach(element =>{
+    if( element != 60){
+        number3.push(element)
+    }
+  })
+  console.log('number',number3);
+
+  let Y = ['apple', 'kiwi','mango','banana','orange']
+  let y1 = [];
+   for(let x = 0 ; x < Y.length ; x++){
+    y1.push(Y(x))
+    
+   }
+    
+  
 
   
+    
+  
+

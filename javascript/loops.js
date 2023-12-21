@@ -354,3 +354,25 @@ console.log(A1[M3]);
  for( let x in stdname ){
     console.log(stdname[x]);
  }
+
+ let A = ['audi','mercedez','thar','jaguar','HONDAcity' ]
+ for(let i = 0 ; i < A.length ; i++){
+    console.log(A[i]);
+ }
+
+ let B = [ 10,20,30,40,50,60,70,90]
+ for (let index of B ){
+    console.log(index);
+ }
+
+let C = {
+    name : 'bharati patil',
+    age : 22,
+    mobno  : 1023456789,
+    state : 'maharashtra',
+    country : 'india'
+}
+for ( let Data in C){
+    console.log(C[Data]);
+}
+
